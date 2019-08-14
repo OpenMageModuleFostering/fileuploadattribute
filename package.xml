@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <package>
     <name>fileuploadattribute</name>
-    <version>1.3.0</version>
+    <version>1.4.0</version>
     <stability>stable</stability>
-    <license uri="https://opensource.org/licenses/MIT">MIT</license>
+    <license uri="http://www.opensource.org/licenses/mit-license.php">MIT License</license>
     <channel>community</channel>
     <extends/>
     <summary>Create file upload attributes for your products by adding a new input type to the attribute creation form.</summary>
     <description>This extension allows you to create file upload attributes for your products by adding a new input type to the attribute creation form.&#xD;
 &#xD;
 You will be able to assign multiple file upload attributes to your products, restrict allowed file extensions and choose to display them automatically on your product pages or display it by yourself however you want to.</description>
-    <notes>Use attribute output helper instead of rewrite</notes>
-    <authors><author><name>Javier Villanueva</name><user>javiervd</user><email>javiervd@gmail.com</email></author></authors>
-    <date>2016-04-02</date>
-    <time>20:12:18</time>
-    <contents><target name="magecommunity"><dir name="Jvs"><dir name="FileAttribute"><dir name="Block"><dir name="Element"><file name="File.php" hash="3cc11497c90e17d239a56474e13d0b08"/></dir><file name=".DS_Store" hash="ebce7d54cccacf1bd448203eb4bbd561"/></dir><dir name="Helper"><file name="Data.php" hash="a47a857c8cca8551d88da798e52785d5"/><file name=".DS_Store" hash="437544c43163b0c119f0d54b3165090c"/></dir><dir name="Model"><dir name="Attribute"><dir name="Backend"><file name="File.php" hash="eadb7ec113ccb821ad696a5275f72f5f"/></dir></dir><file name="Observer.php" hash="2e5bf7a02e92ac5760ac6820e1c810a0"/><file name=".DS_Store" hash="e6214ab42c38117d470985232dd26489"/></dir><dir name="etc"><file name="config.xml" hash="bbca70ea5022886a43bcf4fc46b7d9ea"/><file name=".DS_Store" hash="c8a94f9995370bbee66fb1e6790a2bcc"/></dir><file name=".DS_Store" hash="d22cbfb00c2760c947b1a31b45181077"/></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Jvs_FileAttribute.xml" hash="23788d82b953b31264288716e8536ba9"/></dir></target></contents>
+    <notes>- Restricted file extensions are not getting ignored anymore.</notes>
+    <authors><author><name>Javier Villanueva</name><user>jahvi</user><email>javiervd@gmail.com</email></author></authors>
+    <date>2016-06-11</date>
+    <time>18:40:21</time>
+    <contents><target name="magecommunity"><dir name="Jvs"><dir name="FileAttribute"><dir name="Block"><dir name="Element"><file name="File.php" hash="3cc11497c90e17d239a56474e13d0b08"/></dir></dir><dir name="Helper"><file name="Data.php" hash="a47a857c8cca8551d88da798e52785d5"/></dir><dir name="Model"><dir name="Attribute"><dir name="Backend"><file name="File.php" hash="b91adc1758e024f248938844103f51da"/></dir></dir><file name="Observer.php" hash="2e5bf7a02e92ac5760ac6820e1c810a0"/></dir><dir name="etc"><file name="config.xml" hash="bbca70ea5022886a43bcf4fc46b7d9ea"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Jvs_FileAttribute.xml" hash="23788d82b953b31264288716e8536ba9"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.3.0</min><max>7.0.4</max></php></required></dependencies>
+    <dependencies><required><php><min>5.3.0</min><max>7.0.8</max></php></required></dependencies>
 </package>
