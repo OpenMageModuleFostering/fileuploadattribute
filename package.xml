@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>fileuploadattribute</name>
-    <version>1.1.0</version>
+    <version>1.1.1</version>
     <stability>stable</stability>
     <license uri="https://opensource.org/licenses/MIT">MIT</license>
     <channel>community</channel>
@@ -10,11 +10,11 @@
     <description>This extension allows you to create file upload attributes for your products by adding a new input type to the attribute creation form.&#xD;
 &#xD;
 You will be able to assign multiple file upload attributes to your products, restrict allowed file extensions and choose to display them automatically on your product pages or display it by yourself however you want to.</description>
-    <notes>Ignore file attribute in mass edit screens</notes>
+    <notes>Increase maximum PHP compatible version</notes>
     <authors><author><name>Javier Villanueva</name><user>javiervd</user><email>javiervd@gmail.com</email></author></authors>
-    <date>2015-11-21</date>
-    <time>14:55:27</time>
+    <date>2016-01-04</date>
+    <time>20:42:30</time>
     <contents><target name="magecommunity"><dir name="Jvs"><dir name="FileAttribute"><dir name="Block"><dir name="Element"><file name="File.php" hash="3cc11497c90e17d239a56474e13d0b08"/></dir><dir name="Product"><dir name="View"><file name="Attributes.php" hash="23804c6ac14597db3147ce47c2b58131"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="fad835c3b52c614614eedd1bdeab633f"/></dir><dir name="Model"><dir name="Attribute"><dir name="Backend"><file name="File.php" hash="b91adc1758e024f248938844103f51da"/></dir></dir><file name="Observer.php" hash="04c446dacc6c760454d6d33acd607ba1"/></dir><dir name="etc"><file name="config.xml" hash="5c5593331b1be697c818eaebf758857b"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Jvs_FileAttribute.xml" hash="23788d82b953b31264288716e8536ba9"/></dir></target></contents>
     <compatible/>
-    <dependencies><required><php><min>5.3.0</min><max>5.6.14</max></php></required></dependencies>
+    <dependencies><required><php><min>5.3.0</min><max>5.6.16</max></php></required></dependencies>
 </package>
