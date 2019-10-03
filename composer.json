@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/fileuploadattribute",
+    "name": "OpenMageModuleFostering\/fileuploadattribute",
     "type": "magento-module",
     "license": "MIT-License",
     "homepage": "",
     "description": "Create file upload attributes for your products by adding a new input type to the attribute creation form.",
     "authors": [
-    {
-        "name": "Javier Villanueva",
-        "email": "javiervd@gmail.com"
-    }
-],
+        {
+            "name": "Javier Villanueva",
+            "email": "javiervd@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
